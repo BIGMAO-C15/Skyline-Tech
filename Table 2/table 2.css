@@ -1,0 +1,45 @@
+
+.container{
+    margin: auto;
+    width: 80%;
+}
+
+table, td, th{
+    border: 2px solid;
+    border-collapse: collapse;
+    border-color: #96d4d9;
+    
+    
+}
+
+table{
+    /* width: 50px; */
+    font-size: 20px;
+        
+
+}
+
+td,th{
+    padding: 15px;
+    
+}
+
+th{
+    background-color: dodgerblue;
+    color: white
+}
+
+caption{
+    font-size: 30px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+tr:nth-child(even){
+
+    background-color: lightcyan;
+}
+
+tr:hover{
+    background-color: dodgerblue;
+}
